@@ -1,0 +1,140 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.page .header .navbar .list ul li {
+    display: inline;
+    font-size: 20px;
+    padding: 20px;
+    /* color: white; */
+}
+
+.page .hero {
+    position: relative;
+    /* background-image: url(./image/Family.jpg); */
+
+}
+
+&::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background-image: url(./image/Family.jpg);
+    background-size: cover;
+    background-position: top center;
+    opacity: 0.25;
+    width: 100%;
+    /* height: 500px   ; */
+}
+
+.page .header .hero .content {
+    display: flex;
+    justify-content: center;
+    flex-direction: row-reverse;
+    align-items: center;
+    height: 100vh;
+    /* padding-left: 50px; */
+    padding-left: 400px;
+}
+
+.page .header .hero .content img{
+    width: 650px;
+}
+
+.page .header .hero .content .text {
+    padding-left: 50px;
+}
+
+.page .header .hero .content .text p {
+    width: 500px;
+    padding-top: 15px;
+    font-size: 25px;
+    color: white;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+}
+
+.page .header .hero .content .text h1 {
+    font-size: 50px;
+    width: 50%;
+}
+
+.page .header .hero .content .text ul li {
+    list-style: none;
+    font-size: 25px;
+    color: white;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+}
+
+.page .school .container{
+    background: linear-gradient(to right, #626F47, #A4B465  );
+    color: #F5ECD5;
+    padding: 50px;
+    text-align: center;
+}
+
+.page .school .container h2 {
+    padding-bottom: 20px;
+}
+
+.page .school .container h3 {
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.page .school .container ul li {
+    list-style: none;
+}
+
+.page .galeri {
+    display: flex;
+    justify-content: center;
+}
+
+.page .galeri .container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    /* width: 500px; */
+    gap: 10px;
+}
+
+.page .galeri .container img {
+ width: 250px;
+ height: 500px;
+}
+
+.footer {
+    background-color: #2c3e50;
+    color: #ecf0f1;
+    padding: 30px 0;
+    text-align: center;
+    font-family: Arial, sans-serif;
+  }
+  
+  .footer a {
+    color: #1abc9c;
+    text-decoration: none;
+    margin: 0 5px;
+  }
+  
+  .footer a:hover {
+    text-decoration: underline;
+  }
+  
+  .footer-container {
+    max-width: 800px;
+    margin: auto;
+  }
+  
+  .social-icons {
+    margin: 10px 0;
+  }
+  
+  footer p {
+    margin: 5px 0;
+    font-size: 14px;
+  }
